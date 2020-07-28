@@ -1,0 +1,2 @@
+TRUNCATE TABLE "[schema name]"."[table name]"
+RESTART IDENTITY;
