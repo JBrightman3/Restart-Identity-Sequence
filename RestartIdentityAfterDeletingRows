@@ -6,3 +6,8 @@
  //add the column to restart identity sequence without having to truncate the table
  
  ALTER TABLE "AWP01_Ph03"."ActiveEnergyBurned" ADD COLUMN activeenergyburned_id SERIAL PRIMARY KEY;
+ 
+ 
+ //In one query:
+ ALTER TABLE "AWP01_Ph03"."ActiveEnergyBurned" DROP COLUMN activeenergyburned_id;
+ ALTER TABLE "AWP01_Ph03"."ActiveEnergyBurned" ADD COLUMN activeenergyburned_id SERIAL PRIMARY KEY;
